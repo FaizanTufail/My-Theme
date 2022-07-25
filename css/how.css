@@ -1,0 +1,215 @@
+.nav{
+	background-color: orange;
+}
+.logo{
+	width: 130px;
+	height: 60px;
+	padding: 8px;
+}
+.menu ul{
+	justify-content: center;
+   list-style-type: none;
+   display: flex;
+   margin-left: 80px;
+}
+.menu li{
+   padding-left: 30px;
+   padding-top: 4%;
+   padding-right: 20px;
+}
+.menu li a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+.icon{
+	margin-top: 1.7%;
+	margin-left: 100px;
+}
+.icon a{
+	text-decoration: none;
+}
+.icontxt{
+	margin-left: 22px;
+	font-weight: bold;
+	margin-top: -27%;
+}
+.icon2{
+	margin-top: 1.9%;
+	margin-left: 60px;
+}
+.icon2 a{
+	text-decoration: none;
+}
+.icontxt2{
+	margin-left: 22px;
+	font-weight: bold;
+	margin-top: -40%;
+}
+.menubutton{
+	margin-left: 100px;
+	background-color: transparent;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	border:none;
+	margin-top: 5%;
+}
+.background{
+	background-color: black;
+}
+.presents{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.border{
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	border-left: 1px dashed white;
+	border-right: 1px dashed white;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	letter-spacing: 15px;
+	margin-top :4%;
+	margin-left: 35%;
+	margin-right: 35%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.span1{
+	font-size: 45px;
+	letter-spacing: 5px;
+}
+.main{
+	text-align: center;
+	color: white;
+	font-size: 70px;
+	margin-top: 5%;
+	letter-spacing: 9px;
+}
+.sign{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	margin-top: 3%;
+	margin-left: 3%;
+	word-spacing: 6px;
+	letter-spacing: 6px;
+}
+.span2{
+	color: white;
+	font-size: 28px;
+	border-bottom: 2px solid white;
+	box-shadow: 2px 2px 2px white;
+}
+.footer{
+	background-color: brown;
+}
+.footer-logo{
+	width: 130px;
+	height: 50px;
+	padding-right: 22px;
+	margin-top: 27%;
+	padding-top: 8px;
+}
+.widget_nav_menu{
+	list-style-type: none;
+}
+.menu-menu-1-container ul{
+	list-style-type: none;
+}
+.menu-menu-1-container li a{
+	color: white;
+	font-size: 16px;
+}
+.menu-header-container ul{
+	list-style-type: none;
+}
+.menu-header-container li a{
+	color: white;
+	font-size: 16px;
+}
+.menu-how-container ul{
+	list-style-type: none;
+}
+.menu-how-container li a{
+	color: white;
+	font-size: 16px;
+}
+.widget{
+	list-style-type: none;
+}
+.widget ul{
+	list-style-type: none;
+}
+.widget ul{
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+.widget li{
+	margin-top: 20px;
+}
+@media screen and (min-width: 300px) and (max-width:700px){
+
+
+.logo{
+	width: 130px;
+	height: 60px;
+	padding: 8px;
+}
+.menu ul{
+	justify-content: center;
+   list-style-type: none;
+   display: flex;
+   margin-left: 0px;
+}
+.menu li{
+   padding-left: 0px;
+   padding-top: 4%;
+   padding-right: 20px;
+}
+.menu li a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+.icon{
+	margin-top: 1.7%;
+	margin-left: 30px;
+}
+.icon a{
+	text-decoration: none;
+}
+.icontxt{
+	margin-left: 22px;
+	font-weight: bold;
+	margin-top: -27%;
+}
+.icon2{
+	margin-top: 1.9%;
+	margin-left: 10px;
+}
+.icon2 a{
+	text-decoration: none;
+}
+.icontxt2{
+	margin-left: 22px;
+	font-weight: bold;
+	margin-top: -45%;
+}
+.menubutton{
+	margin-left: 50px;
+	background-color: transparent;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	border:none;
+	margin-top: -8%;
+}
+
+}

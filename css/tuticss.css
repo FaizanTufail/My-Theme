@@ -1,0 +1,597 @@
+body{
+    font-family: Arial,sans-serif;
+}
+.product_slider_main img{
+    width: 432px;
+    height: 301px;
+}
+.logo{
+    width: 124px;
+    height: 54px;
+    padding-top: 10px;
+    padding-right: 6px;
+    border-right: 1px solid rgba(128, 128, 128, 0.425);
+}
+.logotext{
+    font-family: Arial,sans-serif;
+    font-size: 10px;
+    margin-left: 30%;
+    margin-top:-8.6%;
+}
+.desc{
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #174189;
+    margin-right: -6%;
+    margin-top: 5%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.425);
+}
+.ratingtext{
+    color: gray;
+    font-size: 12px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.425);
+    padding-bottom: 2%;
+
+}
+.pall{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+.pall span{
+    color: gray;
+    font-weight: 500;
+}
+.left{
+    float: right;
+    margin-top: -8.2%;
+}
+.replace{
+    margin-top: -3.5%;
+}
+.left2{
+    font-size: 12px;
+    color: #666666;
+    margin-top: -20%;
+    margin-left: 25%;
+    padding: 5px;
+}
+.dollar{
+    font-weight: bold;
+    color: #990000;
+}
+.border-solid{
+    width: 210px;
+    height: 68px;
+}
+.thumb{
+    width: 60px;
+    height: 42px;
+    padding: 5px;
+}
+.radio{
+    float: right;
+}
+.input-radio{
+    display: none;
+}
+.label-radio{
+    cursor: pointer;
+    border: 2px solid black;
+}
+.input-radio:checked + .label-radio{
+    border: 2px solid green;
+    background-color: #f6fbf6;
+}
+.box{
+    margin-top: 2px;
+    margin-left: 10%;
+    width: 250px;
+    height: 388px;
+    border: 1px solid rgba(128, 128, 128, 0.425);
+    border-collapse: collapse;
+}
+.firstbox{
+    background-color: #f2f2f2;
+
+}
+.p1{
+    padding-top: 5px;
+    text-align: right;
+    font-size: 12px;
+    padding-right: 5px;
+
+}
+.p1 del{
+    padding-left: 35px;
+}
+.p2{
+    padding-right: 5px;
+    margin-top: -5%;
+    color: #d82424;
+    font-weight: bold;
+    font-size: 12px;
+    text-align:right ;
+}
+.p2 span{
+    font-size: 24px;
+    padding-left:5px ;
+}
+.p3{
+    padding-right: 5px;
+    margin-top: -5%;
+    font-size: 10px;
+    text-align: right;
+    padding-bottom: 8px;
+}
+.p3 b{
+    color: #cc0000;
+}
+.p3 span{
+    color: #cc0000;
+}
+.part{
+    padding-bottom: 8%;
+    font-size: 11px;
+    padding-left: 5px;
+}
+.qnt{
+    width: 40px;
+}
+.button{
+    margin-left: 8px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 5px 32px;
+}
+.button:hover{
+    background-color: rgb(79, 199, 79);
+}
+.rdp{
+    font-size: 12px;
+    padding: 5px;
+}
+.mail{
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 3px;
+    color: gray;
+}
+.submit{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 1.5px 5px;
+    font-weight: bold;
+}
+.submit:hover{
+    background-color: rgb(79, 199, 79);
+}
+.fourbox{
+    background-color: #f2f2f2;
+}
+.fourbox p{
+    margin-top: 15px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.fourbox span{
+    font-size: 12px;
+    font-weight: 500;
+}
+.zip{
+    margin-top: ;
+    width: 65px;
+    margin-bottom:;
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 3px;
+    color: gray;
+}
+@media screen and (min-width: 300px) and (max-width:700px){
+    body{
+        font-family: Arial,sans-serif;
+    }
+    .product_slider_main img{
+        width: 432px;
+        height: 301px;
+    }
+    .logo{
+        margin-left: 5%;
+        width: 124px;
+        height: 54px;
+        padding-top: 10px;
+        padding-right: 6px;
+        border-right: 1px solid rgba(128, 128, 128, 0.425);
+    }
+    .logotext{
+        font-family: Arial,sans-serif;
+        font-size: 10px;
+        margin-left: 38%;
+        margin-top:-8.6%;
+    }
+    .desc{
+        font-family: Arial,sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: #174189;
+        margin-right: 0%;
+        margin-left: 5%;
+        margin-top: 5%;
+        padding-bottom: 2%;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.425);
+    }
+    .ratingtext{
+        margin-left: 5%;
+        color: gray;
+        font-size: 12px;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.425);
+        padding-bottom: 2%;
+    
+    }
+    .pall{
+        margin-left: 5%;
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .pall span{
+        color: gray;
+        font-weight: 500;
+    }
+    .left{
+        float: right;
+        margin-top: -8.2%;
+    }
+    .replace{
+        margin-top: -3.5%;
+    }
+    .left2{
+        font-size: 12px;
+        color: #666666;
+        margin-top: -20%;
+        margin-left: 25%;
+        padding: 5px;
+    }
+    .dollar{
+        font-weight: bold;
+        color: #990000;
+    }
+    .border-solid{
+        width: 180px;
+        height: 68px;
+    }
+    .thumb{
+        width: 60px;
+        height: 42px;
+        padding: 5px;
+    }
+    .radio{
+        float: right;
+    }
+    .input-radio{
+        display: none;
+    }
+    .label-radio{
+        cursor: pointer;
+        border: 2px solid black;
+    }
+    .input-radio:checked + .label-radio{
+        border: 2px solid green;
+        background-color: #f6fbf6;
+    }
+    .box{
+        margin-top: 5%;
+        margin-left: 18%;
+        width: 250px;
+        height: 388px;
+        border: 1px solid rgba(128, 128, 128, 0.425);
+        border-collapse: collapse;
+    }
+    .firstbox{
+        background-color: #f2f2f2;
+    
+    }
+    .p1{
+        padding-top: 5px;
+        text-align: right;
+        font-size: 12px;
+        padding-right: 5px;
+    
+    }
+    .p1 del{
+        padding-left: 35px;
+    }
+    .p2{
+        padding-right: 5px;
+        margin-top: -5%;
+        color: #d82424;
+        font-weight: bold;
+        font-size: 12px;
+        text-align:right ;
+    }
+    .p2 span{
+        font-size: 24px;
+        padding-left:5px ;
+    }
+    .p3{
+        padding-right: 5px;
+        margin-top: -5%;
+        font-size: 10px;
+        text-align: right;
+        padding-bottom: 8px;
+    }
+    .p3 b{
+        color: #cc0000;
+    }
+    .p3 span{
+        color: #cc0000;
+    }
+    .part{
+        padding-bottom: 8%;
+        font-size: 11px;
+        padding-left: 5px;
+    }
+    .qnt{
+        width: 40px;
+    }
+    .button{
+        margin-left: 8px;
+        background-color: green;
+        color: white;
+        font-weight: bold;
+        border: none;
+        padding: 5px 32px;
+    }
+    .button:hover{
+        background-color: rgb(79, 199, 79);
+    }
+    .rdp{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .mail{
+        font-size: 12px;
+        margin-left: 10px;
+        padding: 3px;
+        color: gray;
+    }
+    .submit{
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 1.5px 5px;
+        font-weight: bold;
+    }
+    .submit:hover{
+        background-color: rgb(79, 199, 79);
+    }
+    .fourbox{
+        background-color: #f2f2f2;
+    }
+    .fourbox p{
+        margin-top: 15px;
+        padding-left: 10px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .fourbox span{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .zip{
+        margin-top: ;
+        width: 65px;
+        margin-bottom:;
+        font-size: 12px;
+        margin-left: 10px;
+        padding: 3px;
+        color: gray;
+    }
+}
+@media screen and (min-width: 701px) and (max-width:900px){
+    body{
+        font-family: Arial,sans-serif;
+    }
+    .product_slider_main img{
+        width: 432px;
+        height: 301px;
+    }
+    .logo{
+        margin-left: 5%;
+        width: 124px;
+        height: 54px;
+        padding-top: 10px;
+        padding-right: 6px;
+        border-right: 1px solid rgba(128, 128, 128, 0.425);
+    }
+    .logotext{
+        font-family: Arial,sans-serif;
+        font-size: 10px;
+        margin-left: 58%;
+        margin-top:-13.6%;
+    }
+    .desc{
+        font-family: Arial,sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: #174189;
+        margin-right: 0%;
+        margin-left: 5%;
+        margin-top: 5%;
+        padding-bottom: 2%;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.425);
+    }
+    .ratingtext{
+        margin-left: 5%;
+        color: gray;
+        font-size: 12px;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.425);
+        padding-bottom: 2%;
+    
+    }
+    .pall{
+        margin-left: 5%;
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .pall span{
+        color: gray;
+        font-weight: 500;
+    }
+    .left{
+        float: right;
+        margin-top: -8.2%;
+    }
+    .replace{
+        margin-top: -3.5%;
+    }
+    .left2{
+        font-size: 9px;
+        color: #666666;
+        margin-top: -35%;
+        margin-left: 47%;
+        padding: 5px;
+    }
+    .dollar{
+        font-weight: bold;
+        color: #990000;
+    }
+    .border-solid{
+        width: 110px;
+        height: 68px;
+    }
+    .thumb{
+        width: 60px;
+        height: 42px;
+        padding: 5px;
+    }
+    .radio{
+        float: right;
+    }
+    .input-radio{
+        display: none;
+    }
+    .label-radio{
+        cursor: pointer;
+        border: 2px solid black;
+    }
+    .input-radio:checked + .label-radio{
+        border: 2px solid green;
+        background-color: #f6fbf6;
+    }
+    .box{
+        margin-top: 5%;
+        margin-left: 0%;
+        width: 250px;
+        height: 388px;
+        border: 1px solid rgba(128, 128, 128, 0.425);
+        border-collapse: collapse;
+    }
+    .firstbox{
+        background-color: #f2f2f2;
+    
+    }
+    .p1{
+        padding-top: 5px;
+        text-align: right;
+        font-size: 12px;
+        padding-right: 5px;
+    
+    }
+    .p1 del{
+        padding-left: 35px;
+    }
+    .p2{
+        padding-right: 5px;
+        margin-top: -5%;
+        color: #d82424;
+        font-weight: bold;
+        font-size: 12px;
+        text-align:right ;
+    }
+    .p2 span{
+        font-size: 24px;
+        padding-left:5px ;
+    }
+    .p3{
+        padding-right: 5px;
+        margin-top: -5%;
+        font-size: 10px;
+        text-align: right;
+        padding-bottom: 8px;
+    }
+    .p3 b{
+        color: #cc0000;
+    }
+    .p3 span{
+        color: #cc0000;
+    }
+    .part{
+        padding-bottom: 8%;
+        font-size: 11px;
+        padding-left: 5px;
+    }
+    .qnt{
+        width: 40px;
+    }
+    .button{
+        margin-left: 8px;
+        background-color: green;
+        color: white;
+        font-weight: bold;
+        border: none;
+        padding: 5px 32px;
+    }
+    .button:hover{
+        background-color: rgb(79, 199, 79);
+    }
+    .rdp{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .mail{
+        font-size: 12px;
+        margin-left: 10px;
+        padding: 3px;
+        color: gray;
+    }
+    .submit{
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 1.5px 5px;
+        font-weight: bold;
+    }
+    .submit:hover{
+        background-color: rgb(79, 199, 79);
+    }
+    .fourbox{
+        background-color: #f2f2f2;
+    }
+    .fourbox p{
+        margin-top: 15px;
+        padding-left: 10px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .fourbox span{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .zip{
+        margin-top: ;
+        width: 65px;
+        margin-bottom:;
+        font-size: 12px;
+        margin-left: 10px;
+        padding: 3px;
+        color: gray;
+    }
+}
